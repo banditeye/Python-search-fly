@@ -13,9 +13,9 @@ class Connectdb():
     def create_connection(self):
         """self.connection=cx_Oracle.connect('system/Wisienka.kw1@projektesky')"""
         try:
-            self.connection=mysql.connector.connect(user='user809w_kamil ', password='wisienka1',
-                                                host='78.47.160.209',
-                                                database='user809w_esky')
+            self.connection=mysql.connector.connect(user='******* ', password='*****',
+                                                host='******',
+                                                database='******')
            
         except mysql.connector.Error as err:
             if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
