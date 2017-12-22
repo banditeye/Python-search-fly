@@ -11,7 +11,7 @@ class Connectdb():
 
     connection=''
     def create_connection(self):
-        """self.connection=cx_Oracle.connect('system/Wisienka.kw1@projektesky')"""
+        """self.connection=cx_Oracle.connect('system/*******@projektesky')"""
         try:
             self.connection=mysql.connector.connect(user='******* ', password='*****',
                                                 host='******',
